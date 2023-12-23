@@ -1,2 +1,2 @@
 # Magical-Souls
-Minecraft Spigot plugin that adds magical abilities
+Minecraft Fabric Mod that adds magical abilities
