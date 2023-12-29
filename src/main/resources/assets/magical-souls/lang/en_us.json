@@ -1,0 +1,7 @@
+{
+  "itemGroup.magical-souls.spell_group": "Spells",
+  "itemGroup.magical-souls.caster_group": "Magical Items",
+
+  "item.magical-souls.spell_fire_item": "Fire Spell",
+  "item.magical-souls.spell_fire_item.tooltip": "Casts a Fire flame towards your enemy"
+}

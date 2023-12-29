@@ -1,7 +1,8 @@
-target/
-!.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# gradle
+.gradle/
+build/
+out/
+classes/
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -36,3 +37,14 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# fabric
+
+run/
+
+# java
+
+hs_err_*.log
+replay_*.log
+*.hprof
+*.jfr

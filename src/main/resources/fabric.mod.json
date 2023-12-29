@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "magical-souls",
+	"version": "${version}",
+	"name": "Magical-Souls",
+	"description": "A Mod that adds magical abilities",
+	"authors": [
+		"Someoneawesome78"
+	],
+	"contact": {
+		"homepage": "https://github.com/KyleDulce/Magical-Souls",
+		"sources": "https://github.com/KyleDulce/Magical-Souls"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/magical-souls/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.someoneawesome.magicalsouls.MagicalSouls"
+		],
+		"client": [
+			"me.someoneawesome.magicalsouls.MagicalSoulsClient"
+		],
+		"fabric-datagen": [
+			"me.someoneawesome.magicalsouls.MagicalSoulsDataGenerator"
+		]
+	},
+	"mixins": [
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*",
+		"fabric-key-binding-api-v1": "*"
+	},
+	"suggests": {
+	}
+}
